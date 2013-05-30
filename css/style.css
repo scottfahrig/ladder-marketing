@@ -122,7 +122,7 @@ p{
     margin-bottom: 1.5em; /* 21 / 14 */
 }
 
-#container, .inner{
+.container, .inner{
   margin: 0 auto;
 }
 
@@ -135,10 +135,10 @@ header h1{
   padding-left: 30px;
 }
 
-#container{
+.container{
   clear: both;
   max-width: 960px;
-  padding: 20px 30px 0px 30px; 
+  padding: 0px 30px 0px 30px; 
 }
 
 .alt{
