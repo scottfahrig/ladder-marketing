@@ -1,5 +1,13 @@
-.span12 .scott {
+.span12 .hero {
 	background-color: #1abc9c;
 	height: 400px;
 	width: 100%;
+}
+
+.span12 .hero h1 {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #252e35;
+	padding-top: 165px;
 }
