@@ -132,7 +132,7 @@ header h1{
   margin: 7px 0 0 0;
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 header h1 a {
@@ -157,6 +157,13 @@ header h1 a:hover {
   letter-spacing: 0.05em;
 }
 
+footer {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: absolute;
+  bottom: 0px;
+}
+
 /* NAVIGATION */
 
 nav{
@@ -170,18 +177,18 @@ nav ul{
 }
 
 nav ul li{
-  margin: 0 0 0 0;
+  margin: 0 0 0 5px;
   text-align: center;
   overflow: auto;
-  float: left;
-  width: 33%;
+  float: right;
+
 }
 
 nav a{
   text-decoration: none;
   margin: 0;
   display: block;
-  padding: 7px 0 7px 5%;
+  padding: 7px 7px 7px 7px;
   margin: 0 0 0 0;
   border-radius: 5px;
      -webkit-transition:background-color 0.1s ease-in-out;  

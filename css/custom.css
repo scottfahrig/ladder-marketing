@@ -8,6 +8,13 @@
 	background-color: #353334;
 	height: 150px;
 	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.span12 .hero-desc p {
+	color: #f7f7f7;
+	text-align: center;
 }
 
 .span12 .hero h1 {
@@ -69,6 +76,11 @@
 	background-color: #128670;
 }
 
+span.amp {
+  font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  font-style: italic;
+}
+
 #devices {
 	background-image: url('../img/devices.png');
 	background-repeat: no-repeat;
@@ -78,3 +90,23 @@
 	height: 249px;
 	margin-top: 20px;
 }
+
+@media screen and (max-width: 768px){
+	#devices {
+		background-size: 70%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#devices {
+		background-size: 40%;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
