@@ -1,10 +1,8 @@
-ladder
+Ladder
 ======
 
 A Responsive HTML &amp; CSS Framework
 
-<<<<<<< HEAD
-=======
 Features
 ========
 
@@ -20,7 +18,6 @@ Custom styles for typography, headings, tables, form elements and much more.
 
 Well organised and commented CSS to ensure your implementation is a breeze.
 
->>>>>>> 395981107d49db6102df1224a3b9dc9d533ba9a0
 MIT Open Source License
 =======================
 
