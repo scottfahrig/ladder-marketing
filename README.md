@@ -6,15 +6,15 @@ A Responsive HTML &amp; CSS Framework
 Features
 ========
 
-##Responsive Design
+###Responsive Design
 
 Built for all devices big and small, base has got you covered.
 
-##Foundation Styles
+###Foundation Styles
 
 Custom styles for typography, headings, tables, form elements and much more.
 
-##Easy to learn
+###Easy to learn
 
 Well organised and commented CSS to ensure your implementation is a breeze.
 
