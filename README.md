@@ -8,7 +8,7 @@ Features
 
 ###Responsive Design
 
-Built for all devices big and small, base has got you covered.
+You want your website to look great on every device, right?
 
 ###Foundation Styles
 
