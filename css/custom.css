@@ -85,6 +85,7 @@
 
 #sublime a:hover {
 	background-color: #000000;
+	padding-right: 10px;
 }
 
 .feature-buttons a{
@@ -106,7 +107,9 @@
 	background-color: #128670;
 }
 
-
+a {
+	color: #1abc9c;
+}
 
 .box {
 	width: 100%;
@@ -130,9 +133,10 @@ img {
 }
 
 .feature-list {
+	font-family: "proxima-nova",sans-serif;
 	text-align: center;
 	font-size: 1.5em;
-	font-weight: 700;
+	font-weight: 800;
 	color: #070707;
 	text-transform: uppercase;
 }
@@ -162,6 +166,13 @@ span.amp {
 	width: 960px;
 	height: 249px;
 	margin-top: 20px;
+}
+
+#device-icons {
+	color: #f7f7f7;
+	font-size: 10em;
+	text-align: center;
+	margin-top: 100px;
 }
 
 @media screen and (max-width: 768px){
