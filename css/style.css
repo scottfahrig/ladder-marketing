@@ -32,8 +32,6 @@ footer, header, hgroup, menu, nav, section {
 nav ul, nav li { margin: 0; } 
 nav ul, ul { list-style:none; }
 
-
-
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
     float:left;
     -webkit-box-sizing:border-box;
@@ -101,7 +99,7 @@ nav ul, ul { list-style:none; }
 body{ 
   font-size: 87.5%;
   color: #252e35; 
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  font-family: 'Droid Sans', sans-serif;
   line-height: 1.5em;
   background: #f6f6f6;  
 }
@@ -132,6 +130,9 @@ header{
 
 header h1{
   margin: 7px 0 0 0;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .container{
@@ -207,6 +208,7 @@ nav a:hover{
 
   header h1 {
     text-align: center;
+    font-size: 3em;
   }
 }
 
@@ -219,6 +221,10 @@ nav a:hover{
   nav a{
     margin: 0;
     padding: 14px 0 14px 0;
+  }
+
+  header h1 {
+    font-size: 2.2em;
   }
 }
 
