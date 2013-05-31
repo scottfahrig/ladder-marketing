@@ -15,7 +15,7 @@
 	font-size: 2.5em;
 	font-weight: 700;
 	color: #f7f7f7;
-	padding-top: 135px;
+	padding-top: 50px;
 	letter-spacing: 1px;
 }
 
@@ -67,4 +67,14 @@
 
 .hero-buttons a:hover {
 	background-color: #128670;
+}
+
+#devices {
+	background-image: url('../img/devices.png');
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	height: 249px;
+	margin-top: 20px;
 }
