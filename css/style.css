@@ -157,13 +157,6 @@ header h1 a:hover {
   letter-spacing: 0.05em;
 }
 
-footer {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  position: absolute;
-  bottom: 0px;
-}
-
 /* NAVIGATION */
 
 nav{
