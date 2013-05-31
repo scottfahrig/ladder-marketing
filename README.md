@@ -3,8 +3,28 @@ ladder
 
 A Responsive HTML &amp; CSS Framework
 
+<<<<<<< HEAD
+=======
+Features
+========
+
+###Responsive Design
+
+You want your website to look great on every device, right?
+
+###Foundation Styles
+
+Custom styles for typography, headings, tables, form elements and much more.
+
+###Easy to learn
+
+Well organised and commented CSS to ensure your implementation is a breeze.
+
+>>>>>>> 395981107d49db6102df1224a3b9dc9d533ba9a0
 MIT Open Source License
 =======================
+
+Copyright (c) 2013 Scott Fahrig
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
