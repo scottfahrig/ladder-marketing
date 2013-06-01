@@ -30,12 +30,12 @@
 		</nav>
 	</div>
 	<div class="span12 hero">
-		<h1>A Simple, Responsive Framework</h1>
-    <h2>that plays nicely on any viewport.</h2>
-    <div id="buttons">
+		<h1 id="name">Ladder</h1>
+    <h2>A Simple, Responsive Framework that plays nicely on any viewport.</h2>
+    <div class="buttons">
       <ul class="hero-buttons">
-        <li><a class="button-large" href="https://github.com/smfahrig/ladder/archive/master.zip"><i class="ss-download"></i> Download Latest Build</a></li>
-        <li><a class="button-large" href="https://github.com/smfahrig/ladder">Demos <span class="amp">&amp;</span> Docs</a></li>
+        <li><a class="button-large-green" href="https://github.com/smfahrig/ladder/archive/master.zip"><i class="ss-download"></i> Download Latest Build</a></li>
+        <li><a class="button-large-green" href="https://github.com/smfahrig/ladder">Demos <span class="amp">&amp;</span> Docs</a></li>
       </ul>
     </div>
     <div id="devices"></div>
@@ -66,10 +66,12 @@
       <div class="span6">
         <p class="title">Download a Code Editor and Ladder</p>
         <p class="content">Before downloading Ladder, grab your favorite code editor (I highly recommend <a href="http://www.sublimetext.com/2" target="new">Sublime Text Editor 2</a>) and be sure to have some working knowledge of HTML and CSS.</p>
-        <ul class="feature-buttons">
-          <li><a class="button-large" id="sublime" href="http://www.sublimetext.com/2" target="new">Get Sublime Text Editor</a></li>
-          <li><a class="button-large" href="https://github.com/smfahrig/ladder/archive/master.zip">Download Ladder</a></li>
-        </ul>
+        <div class="buttons">
+          <ul class="feature-buttons">
+            <li><a class="button-large-blue" id="sublime" href="http://www.sublimetext.com/2" target="new">Get Sublime Text Editor</a></li>
+            <li><a class="button-large-green" href="https://github.com/smfahrig/ladder/archive/master.zip">Download Ladder</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -114,7 +116,7 @@
     <div class="container" class="cf" id="main">
     <div class="box">
       <div class="span6">
-        <p class="title">Follow this project on Github</p>
+        <p class="title">Follow this project on GitHub</p>
         <div class="content">
           <p>Ladder Framework is still in an active development stage and as such any feedback / ideas for improvements are most welcome.</p> 
           <a href="#" class="bold">Fork Me</a>         
@@ -128,6 +130,10 @@
 
 
   <footer>
-    <p class="copyright">Copyright 2013 Scott Fahrig | Documentation | Github</p>
+    <div class="container">
+      <div class="span12">
+        <p id="copyright">Copyright 2013 Scott Fahrig | Documentation | Github</p>
+      </div>
+    </div>
   </footer>
 </html>

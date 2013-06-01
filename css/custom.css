@@ -36,7 +36,7 @@
 	letter-spacing: 1px;
 }
 
-#buttons {
+.buttons {
 	width: 100%;
 	text-align: center;
 	position: relative;
@@ -46,14 +46,23 @@
 	margin-top: 20px;
 }
 
-#buttons ul {
+.buttons ul {
 	margin:0;
     padding:0;
     display:inline-block;
     list-style: none;   /*Set display to inline-block to the ul*/
 }
 
-#buttons ul li {
+#name {
+	margin-top: -30px;
+	font-size: 5em;
+	  font-family: "proxima-nova",sans-serif;
+	  font-style: normal;
+	  font-weight: 800;
+	  text-transform: uppercase;
+}
+
+.buttons ul li {
 	float: left;
     margin-right: 1.3em; /*this is the usual*/
     padding: 0;
@@ -76,6 +85,24 @@
 
 .hero-buttons a:hover {
 	background-color: #128670;
+}
+
+.button-large-green {
+	background-color: #16A085;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+		-webkit-transition:background-color 0.1s ease-in-out;  
+}
+
+.button-large-blue a {
+	background-color: #2980b9;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+		-webkit-transition:background-color 0.1s ease-in-out; 
+}
+
+.button-large-blue a:hover {
+	background-color: #000000;
 }
 
 #sublime {
@@ -169,6 +196,11 @@ footer {
 span.amp {
   font-family: Baskerville, Palatino, "Book Antiqua", serif;
   font-style: italic;
+}
+
+#copyright {
+	color: #ffffff;
+	text-align: center;
 }
 
 #octocat {
