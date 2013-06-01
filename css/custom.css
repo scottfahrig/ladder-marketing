@@ -122,7 +122,10 @@ img {
 	margin-left: auto;
 	display: block;
 	height: auto;
-	padding-top: 35px;
+	margin-top: 30px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
 }
 
 .title {
@@ -132,13 +135,22 @@ img {
 	font-family: "proxima-nova",sans-serif;
 }
 
-.feature-list {
+.bold {
+	font-weight: bold;
+}
+
+#files {
+	list-style-type: square;
+}
+
+#feature-list {
 	font-family: "proxima-nova",sans-serif;
 	text-align: center;
 	font-size: 1.5em;
 	font-weight: 800;
 	color: #070707;
 	text-transform: uppercase;
+	padding-top: 20px;
 }
 
 p .feature-list {
@@ -146,16 +158,21 @@ p .feature-list {
 	color: #ff00ff;
 }
 
-/*footer {
+footer {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   position: relative;
-  bottom: 0px;
-}*/
+  height: 130px;
+  background-color: #353334;
+}
 
 span.amp {
   font-family: Baskerville, Palatino, "Book Antiqua", serif;
   font-style: italic;
+}
+
+#octocat {
+	border-width: 0px;
 }
 
 #devices {
