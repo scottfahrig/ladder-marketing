@@ -6,7 +6,7 @@
 
 .span12 .hero-desc {
 	background-color: #353334;
-	height: 150px;
+	height: 100%;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -67,6 +67,8 @@
     margin-right: 1.3em; /*this is the usual*/
     padding: 0;
 }
+
+
 
 .hero-buttons a{
 	color: #fefefe;
@@ -222,6 +224,34 @@ span.amp {
 	font-size: 10em;
 	text-align: center;
 	margin-top: 100px;
+}
+
+.blurb-title {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 12px;
+    font-style: normal;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.blurb-desc {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 12px;
+    font-style: normal;
+	font-weight: 300;
+	text-align: left;
+}
+
+.green {
+	background-color: #ADE8DC;
+}
+
+.red {
+	background-color: #F4E6E5;
+}
+
+.blue {
+	background-color: #E3EBF1;
 }
 
 @media screen and (max-width: 768px){
